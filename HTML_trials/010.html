@@ -1,0 +1,106 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+    <style>
+
+        body{
+            font-family: sans-serif;
+        }
+
+        .divA{
+            background-color: #cccccc;
+            width: 300px;
+            height: 175px;
+            padding: 5px;
+            position: absolute;
+            margin-left: 340px;
+            font-size: 65%;
+
+        }
+
+        .divB{
+            background-color: #cccccc;
+            width: 300px;
+            height: 200px;
+            padding: 5px;
+
+        }
+
+        label {
+            width:100px;
+            display: inline-block;
+        }
+
+        .submit {
+            font-size: 60%;
+        }
+    </style>
+
+    <h1>Columns!</h1>
+
+    <div class="divA"> 
+            <form>
+
+            <div class="field_container">
+            <label>Name:</label> <input type="text" name="Name"></div>
+
+            <div class="field_container"><label>Age:</label>
+                <input type="text" name="Age"></div>
+         
+            <div class="field_container">
+            <label>
+                Favorite Color: 
+            </label>
+                <form action="">
+                    <select name="Favorite Color">
+                    <option value="Magenta">Magenta</option>
+                    <option value="Red">Red</option>
+                    <option value="Green">Green</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Fuchsia">Fuchsia</option>
+                    </select>
+                    </form>
+            </div>
+
+            <form>
+            <div class="field_container">
+            <label>
+                Love Music: 
+            </label>
+                 <input type="radio" name="music" value="Love Music">
+            </div>
+
+             <div class="field_container">
+            <label>
+                Hate Music: 
+            </label>
+                 <input type="radio" name="music" value="Hate Music">
+            </div>
+            </form> 
+
+            <div class="field_container">
+            <form>
+            <label>
+                Is it raining? 
+            </label> 
+            <input type="checkbox" name="Is it raining?">
+            </form>
+            </div>
+
+            <input class="submit" type="submit" value="Submit">
+
+            </form>
+    </div> 
+    <div class="divB"> <h3>Here is a list of things</h3>
+        <ul>
+            <li>Banana</li>
+            <li>Rabbit Holes</li>
+            <li>John Quincy Adams</li>
+            <li>A sea serpent</li>
+        </ul>
+    </div>
+
+    </body>
+</html>
